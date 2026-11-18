@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>19. TC- 019 Menu Solutions</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>morris mario pakpahan</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>morris mario pakpahan</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>3ab4c5b2-e821-4dff-9e90-c52e866a95e6</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>3ab4c5b2-e821-4dff-9e90-c52e866a95e6</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8a2996fd-3b09-4644-a609-ab28b3a9f367</testCaseGuid>
+</TestCaseEntity>
