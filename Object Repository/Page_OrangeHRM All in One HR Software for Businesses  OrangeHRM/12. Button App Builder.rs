@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>12. Button App Builder</name>
+   <tag></tag>
+   <elementGuidId>f323b03d-ed20-4162-9bbc-8cd3d2d168cb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navbarNav']/ul/li[4]/div/div/div/div[2]/a[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;App Builder NEW&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>8e5777f1-737d-4246-9883-8bad3e0e87a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/orangehrm-app-builder</value>
+      <webElementGuid>3f3ae5e0-9265-4f89-b769-1c3c4bff661b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>App Builder NEW</value>
+      <webElementGuid>2c49049f-e1b5-4af2-ba80-1a86e29e770c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navbarNav&quot;)/ul[@class=&quot;navbar-nav ms-auto web-menu&quot;]/li[@class=&quot;nav-item&quot;]/div[@class=&quot;dropdown-menu dropdown-menu-mega d-lg-flex shadow&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;left-menu col-lg-3 col-md-3&quot;]/div[@class=&quot;left-sub-menu&quot;]/a[4]</value>
+      <webElementGuid>c4639c24-2218-4df7-a48e-bfc27cdf0281</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navbarNav']/ul/li[4]/div/div/div/div[2]/a[4]</value>
+      <webElementGuid>2a2655eb-6000-481f-9c27-8b7fa12e9136</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Become a certified OrangeHRM professional.'])[1]/following::a[1]</value>
+      <webElementGuid>8f56f5f6-3942-4d98-8464-c9b851cb2530</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Certification Program'])[1]/following::a[1]</value>
+      <webElementGuid>12748973-07ba-46b2-a861-dfd7ce6414d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Build Your Own Apps and Simplify Your Business Process.'])[3]/preceding::a[1]</value>
+      <webElementGuid>1a6da410-f3d3-4a9b-b3e6-69a5cfa586df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/orangehrm-app-builder')])[3]</value>
+      <webElementGuid>fe37be2a-9e19-4ae2-89cb-2b6333446225</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/div/div/div/div[2]/a[4]</value>
+      <webElementGuid>7307fec8-7b2c-4b58-83e5-d4e4d7c8a358</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/orangehrm-app-builder' and (text() = 'App Builder NEW' or . = 'App Builder NEW')]</value>
+      <webElementGuid>5910fefe-b0ac-4df5-85d7-5dde2b96871b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

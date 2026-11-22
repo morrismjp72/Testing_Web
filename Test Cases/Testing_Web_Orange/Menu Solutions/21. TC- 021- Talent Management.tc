@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>21. TC- 021- Talent Management</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>morris mario pakpahan</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>morris mario pakpahan</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>3ab4c5b2-e821-4dff-9e90-c52e866a95e6</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>3ab4c5b2-e821-4dff-9e90-c52e866a95e6</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>435a37c0-e51e-4a08-b997-63615296df6c</testCaseGuid>
+</TestCaseEntity>

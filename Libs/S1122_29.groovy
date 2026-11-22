@@ -23,7 +23,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.l
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\morris\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Testing_Web_Orange\\25. Menu Why OrangeHRM Overview\\40. TC-040- Menu Why Orange- IT Manager\\20261117_161200_580\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\USER\\AppData\\Local\\Temp\\Katalon\\Test Cases\\2. Testing_Web_webcuratar\\40.Testing _Web Webcuratar\\51. TC-051_ pengisian dengan benar\\20261122_205638_591\\execution.properties')
 
 TestCaseMain.beforeStart()
 
@@ -31,9 +31,9 @@ new ExecutionMain().init();
 
 Map<String, String> tcProperties = new HashMap<String, String>();
 
-def __tcBinding = new TestCaseBinding('Test Cases/Testing_Web_Orange/25. Menu Why OrangeHRM Overview/40. TC-040- Menu Why Orange- IT Manager', [:])
-if (__tcBinding != null) { __tcBinding.setTestCaseExecutionId(UUID.fromString('8825ad93-d76d-4690-964e-13d9715b924f')) }
+def __tcBinding = new TestCaseBinding('Test Cases/2. Testing_Web_webcuratar/40.Testing _Web Webcuratar/51. TC-051_ pengisian dengan benar', [:])
+if (__tcBinding != null) { __tcBinding.setTestCaseExecutionId(UUID.fromString('bc591dca-be35-4c57-87bf-3f9c40ebd830')) }
 
 
-        TestCaseMain.runTestCase('Test Cases/Testing_Web_Orange/25. Menu Why OrangeHRM Overview/40. TC-040- Menu Why Orange- IT Manager', __tcBinding, FailureHandling.STOP_ON_FAILURE , false, tcProperties)
+        TestCaseMain.runTestCase('Test Cases/2. Testing_Web_webcuratar/40.Testing _Web Webcuratar/51. TC-051_ pengisian dengan benar', __tcBinding, FailureHandling.STOP_ON_FAILURE , false, tcProperties)
     

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>41. TC-041-Homepage-Pemuatan Halaman</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Morris Mario Pakpahan</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Morris Mario Pakpahan</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>45b18b87-00b3-4b17-b8fc-f1122a8fc9fd</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>45b18b87-00b3-4b17-b8fc-f1122a8fc9fd</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>53de0fcc-4862-4a56-9d18-6853e39df1b8</testCaseGuid>
+</TestCaseEntity>

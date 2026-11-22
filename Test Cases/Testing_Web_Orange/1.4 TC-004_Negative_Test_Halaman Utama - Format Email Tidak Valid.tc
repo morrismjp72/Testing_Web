@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1.4 TC-004_Negative_Test_Halaman Utama - Format Email Tidak Valid</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Morris Mario Pakpahan</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>45b18b87-00b3-4b17-b8fc-f1122a8fc9fd</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Morris Mario Pakpahan</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>45b18b87-00b3-4b17-b8fc-f1122a8fc9fd</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3d5e0889-5b2d-4c59-af4e-80c56ea15fc1</testCaseGuid>
+</TestCaseEntity>
