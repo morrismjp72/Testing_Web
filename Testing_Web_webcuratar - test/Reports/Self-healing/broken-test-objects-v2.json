@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Validasi/2. Validasi_Halaman_Utama",
+      "brokenLocator": "//h1[(text() \u003d \u0027Streamline All Your HR Needs on One Intuitive\u0027 or . \u003d \u0027Streamline All Your HR Needs on One Intuitive\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//h1",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Validasi/2. Validasi_Halaman_Utama_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_OrangeHRM All in One HR Software for Businesses  OrangeHRM/5. Click Book a Free Demo",
+      "brokenLocator": "//*[@onclick \u003d \u0027window.location.href\u003d\u0027/book-a-free-demo\u0027\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "xpath\u003d(//button[@type\u003d\u0027button\u0027])[9]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
+}

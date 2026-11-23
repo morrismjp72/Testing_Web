@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+3. Test_data_Semua_row,Chrome 157.0.8103.80,,,23-11-2026 23:38:50,23-11-2026 23:39:18,28.152s,PASSED
+,,,,,,,
+Test Cases/1. Testing_Web_webcuratar/40.Testing _Web Webcuratar/53. TC-052_ pengisian dengan benar _Data - Semua_Data,Chrome 157.0.8103.80,,,23-11-2026 23:38:50,23-11-2026 23:39:18,27.907s,PASSED
+"DATA BINDING - {""(Default) Noted"":""percobaan pertama harusnya bisa atau tidak bisa"",""(Default) Email"":""Santa_pelua72@gmail.com"",""(Default) TrueU..."":""https://webcuratar.com/"",""(Default) Name"":""Santa"",""(Default) Subje..."":""Pengetesan Hari ini\r\n""}",,,,,,,
+"testData = findTestData(""Data Files/Test_1"")",Chrome 157.0.8103.80,,,23-11-2026 23:38:51,23-11-2026 23:38:51,0.019s,PASSED
+"for ([row = 1, row <= testData.getRowNumbers(), (row++)])",Chrome 157.0.8103.80,,,23-11-2026 23:38:51,23-11-2026 23:39:18,27.275s,PASSED

@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "3530C4E1FAFA589D84AF8FED3818C142",
+  "keywordClasses": [
+    {
+      "name": "com.webcuratar.BrowserKeywords",
+      "keywordMethods": [
+        {
+          "name": "opensite",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "closeSite",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>47. TC-047-Negative Test- Book an Appointment - Mengisi hanya Email</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Morris Mario Pakpahan</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Morris Mario Pakpahan</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>45b18b87-00b3-4b17-b8fc-f1122a8fc9fd</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>45b18b87-00b3-4b17-b8fc-f1122a8fc9fd</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>31246406-23b9-4e0c-800c-5894c688f04a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>09eeece6-3d75-4451-9fce-c636edae5f9e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://webcuratar.com/'</defaultValue>
+      <description></description>
+      <id>09eeece6-3d75-4451-9fce-c636edae5f9e</id>
+      <masked>false</masked>
+      <name>baseURL</name>
+   </variable>
+</TestCaseEntity>

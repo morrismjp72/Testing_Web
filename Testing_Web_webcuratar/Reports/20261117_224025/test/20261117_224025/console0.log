@@ -1,0 +1,96 @@
+2026-11-17 22:40:29.492 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\USER\.katalon\packages\KS-11.7.0\configuration\org.eclipse.osgi\166\0\.cp\resources\logback\logback-execution.xml
+2026-11-17 22:40:29.495 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\USER\Katalon Studio\Testing_Web\Include\config\log.properties
+2026-11-17 22:40:30.255 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/test
+2026-11-17 22:40:30.340 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Morris Mario Pakpahan
+2026-11-17 22:40:30.341 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Testing_Web
+2026-11-17 22:40:30.342 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = USER - DESKTOP-8VN3607
+2026-11-17 22:40:30.342 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-11-17 22:40:30.343 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.18.9
+2026-11-17 22:40:30.344 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.7.0
+2026-11-17 22:40:30.516 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-11-17 22:40:30.517 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Testing_Web_Orange/Menu Solutions/19. TC- 019 Menu Solutions
+2026-11-17 22:40:31.007 DEBUG testcase.19. TC- 019 Menu Solutions      - 1: openBrowser(null)
+2026-11-17 22:40:31.348 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-17 22:40:31.403 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-17 22:40:33.886 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 46b65dfdf3aac344de90a7c0d08100be
+2026-11-17 22:40:33.888 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 157.0.8103.79
+2026-11-17 22:40:33.889 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-11-17 22:40:33.890 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-17 22:40:33.898 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-17 22:40:33.953 DEBUG testcase.19. TC- 019 Menu Solutions      - 2: navigateToUrl("https://orangehrm.com/")
+2026-11-17 22:40:38.669 DEBUG testcase.19. TC- 019 Menu Solutions      - 3: maximizeWindow()
+2026-11-17 22:40:38.741 DEBUG testcase.19. TC- 019 Menu Solutions      - 4: check(findTestObject("Page_OrangeHRM All in One HR Software for Businesses  OrangeHRM/Menu Solutions/19. Button Solutions"))
+2026-11-17 22:40:39.077 DEBUG testcase.19. TC- 019 Menu Solutions      - 5: verifyElementText(findTestObject("Validasi/Menu Solutions/19.Validasi Solutions"), "Solutions Overview")
+2026-11-17 22:40:39.175 DEBUG testcase.19. TC- 019 Menu Solutions      - 6: closeBrowser()
+2026-11-17 22:40:39.406 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Testing_Web_Orange/Menu Solutions/19. TC- 019 Menu Solutions
+2026-11-17 22:40:39.428 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-11-17 22:40:39.429 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Testing_Web_Orange/Menu Solutions/20. TC- 020 Menu Solutions- People Management
+2026-11-17 22:40:39.518 DEBUG C- 020 Menu Solutions- People Management - 1: openBrowser(null)
+2026-11-17 22:40:39.521 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-17 22:40:39.526 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-17 22:40:40.950 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5fbe62a6ed079c2fb2be9129b4ac068d
+2026-11-17 22:40:40.951 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 157.0.8103.79
+2026-11-17 22:40:40.953 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-11-17 22:40:40.956 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-17 22:40:40.957 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-17 22:40:40.988 DEBUG C- 020 Menu Solutions- People Management - 2: navigateToUrl("https://orangehrm.com/")
+2026-11-17 22:40:46.689 DEBUG C- 020 Menu Solutions- People Management - 3: maximizeWindow()
+2026-11-17 22:40:46.743 DEBUG C- 020 Menu Solutions- People Management - 4: check(findTestObject("Page_OrangeHRM All in One HR Software for Businesses  OrangeHRM/Menu Solutions/19. Button Solutions"))
+2026-11-17 22:40:46.900 DEBUG C- 020 Menu Solutions- People Management - 5: click(findTestObject("Page_OrangeHRM All in One HR Software for Businesses  OrangeHRM/Menu Solutions/20. Button People Management"))
+2026-11-17 22:40:49.765 DEBUG C- 020 Menu Solutions- People Management - 6: verifyElementClickable(findTestObject("Validasi/Menu Solutions/20. Validasi People Management"))
+2026-11-17 22:40:49.849 DEBUG C- 020 Menu Solutions- People Management - 7: closeBrowser()
+2026-11-17 22:40:50.183 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Testing_Web_Orange/Menu Solutions/20. TC- 020 Menu Solutions- People Management
+2026-11-17 22:40:50.197 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-11-17 22:40:50.197 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Testing_Web_Orange/Menu Solutions/21. TC- 021- Talent Management
+2026-11-17 22:40:50.280 DEBUG t.21. TC- 021- Talent Management         - 1: openBrowser(null)
+2026-11-17 22:40:50.282 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-17 22:40:50.285 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-17 22:40:51.705 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 529a72e73b08648c5a05a5d87e076795
+2026-11-17 22:40:51.707 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 157.0.8103.79
+2026-11-17 22:40:51.708 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-11-17 22:40:51.708 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-17 22:40:51.710 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-17 22:40:51.741 DEBUG t.21. TC- 021- Talent Management         - 2: navigateToUrl("https://orangehrm.com/")
+2026-11-17 22:40:55.800 DEBUG t.21. TC- 021- Talent Management         - 3: maximizeWindow()
+2026-11-17 22:40:55.858 DEBUG t.21. TC- 021- Talent Management         - 4: check(findTestObject("Page_OrangeHRM All in One HR Software for Businesses  OrangeHRM/Menu Solutions/19. Button Solutions"))
+2026-11-17 22:40:56.044 DEBUG t.21. TC- 021- Talent Management         - 5: click(findTestObject("Page_OrangeHRM All in One HR Software for Businesses  OrangeHRM/Menu Solutions/21. Button Talent Management"))
+2026-11-17 22:40:58.250 DEBUG t.21. TC- 021- Talent Management         - 6: verifyElementText(findTestObject("Validasi/Menu Solutions/21. Validasi Talent Management"), "Recruitment Cycle")
+2026-11-17 22:40:58.299 DEBUG t.21. TC- 021- Talent Management         - 7: closeBrowser()
+2026-11-17 22:40:58.488 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Testing_Web_Orange/Menu Solutions/21. TC- 021- Talent Management
+2026-11-17 22:40:58.499 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-11-17 22:40:58.499 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Testing_Web_Orange/Menu Solutions/22. TC-022- Compensation
+2026-11-17 22:40:58.586 DEBUG testcase.22. TC-022- Compensation        - 1: openBrowser(null)
+2026-11-17 22:40:58.590 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-17 22:40:58.592 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-17 22:40:59.971 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = f2f0a9b227802c47494fc76fa37e9a61
+2026-11-17 22:40:59.973 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 157.0.8103.79
+2026-11-17 22:40:59.974 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-11-17 22:40:59.974 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-17 22:40:59.976 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-17 22:41:00.001 DEBUG testcase.22. TC-022- Compensation        - 2: navigateToUrl("https://orangehrm.com/")
+2026-11-17 22:41:04.473 DEBUG testcase.22. TC-022- Compensation        - 3: maximizeWindow()
+2026-11-17 22:41:04.521 DEBUG testcase.22. TC-022- Compensation        - 4: check(findTestObject("Page_OrangeHRM All in One HR Software for Businesses  OrangeHRM/Menu Solutions/19. Button Solutions"))
+2026-11-17 22:41:04.657 DEBUG testcase.22. TC-022- Compensation        - 5: click(findTestObject("Page_OrangeHRM All in One HR Software for Businesses  OrangeHRM/Menu Solutions/22. Button Compensation"))
+2026-11-17 22:41:07.416 DEBUG testcase.22. TC-022- Compensation        - 6: verifyElementText(findTestObject("Validasi/Menu Solutions/22. Validasi Compensation"), "Thriving and Diverse")
+2026-11-17 22:41:07.458 DEBUG testcase.22. TC-022- Compensation        - 7: closeBrowser()
+2026-11-17 22:41:07.686 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Testing_Web_Orange/Menu Solutions/22. TC-022- Compensation
+2026-11-17 22:41:07.694 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-11-17 22:41:07.694 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Testing_Web_Orange/Menu Solutions/23. TC- 023 Menu Solutions- Culture
+2026-11-17 22:41:07.782 DEBUG t.23. TC- 023 Menu Solutions- Culture    - 1: openBrowser(null)
+2026-11-17 22:41:07.784 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-17 22:41:07.787 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-17 22:41:09.076 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 524f3ea9675f396ef793bb17c4cf79af
+2026-11-17 22:41:09.077 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 157.0.8103.79
+2026-11-17 22:41:09.077 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-11-17 22:41:09.078 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-17 22:41:09.079 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-17 22:41:09.101 DEBUG t.23. TC- 023 Menu Solutions- Culture    - 2: navigateToUrl("https://orangehrm.com/")
+2026-11-17 22:41:12.933 DEBUG t.23. TC- 023 Menu Solutions- Culture    - 3: maximizeWindow()
+2026-11-17 22:41:12.982 DEBUG t.23. TC- 023 Menu Solutions- Culture    - 4: check(findTestObject("Page_OrangeHRM All in One HR Software for Businesses  OrangeHRM/Menu Solutions/19. Button Solutions"))
+2026-11-17 22:41:13.128 DEBUG t.23. TC- 023 Menu Solutions- Culture    - 5: click(findTestObject("Page_OrangeHRM All in One HR Software for Businesses  OrangeHRM/Menu Solutions/23. Button Culture"))
+2026-11-17 22:41:15.414 DEBUG t.23. TC- 023 Menu Solutions- Culture    - 6: verifyElementText(findTestObject("Validasi/Menu Solutions/23. Validasi Culture"), "Compensation Management.")
+2026-11-17 22:41:15.452 DEBUG t.23. TC- 023 Menu Solutions- Culture    - 7: closeBrowser()
+2026-11-17 22:41:15.678 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Testing_Web_Orange/Menu Solutions/23. TC- 023 Menu Solutions- Culture
+2026-11-17 22:41:15.716 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-11-17 22:41:15.716 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/test
+2026-11-17 22:41:15.716 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
