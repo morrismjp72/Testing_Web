@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1.9 TC- 009 Menu Starter (Open Source)</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Morris Mario Pakpahan</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>45b18b87-00b3-4b17-b8fc-f1122a8fc9fd</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Morris Mario Pakpahan</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>45b18b87-00b3-4b17-b8fc-f1122a8fc9fd</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b79cf321-0f2a-4c4e-8429-5504096072ce</testCaseGuid>
+</TestCaseEntity>

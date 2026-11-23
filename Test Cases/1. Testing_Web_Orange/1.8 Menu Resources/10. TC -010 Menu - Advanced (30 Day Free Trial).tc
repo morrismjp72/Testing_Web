@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>10. TC -010 Menu - Advanced (30 Day Free Trial)</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Morris Mario Pakpahan</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>45b18b87-00b3-4b17-b8fc-f1122a8fc9fd</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>morris mario pakpahan</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>3ab4c5b2-e821-4dff-9e90-c52e866a95e6</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>17f9b1a5-0c09-44e6-a660-5c29da6515d4</testCaseGuid>
+</TestCaseEntity>

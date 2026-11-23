@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test,Chrome 157.0.8103.79,,,17-11-2026 22:11:45,17-11-2026 22:18:53,7m - 7.992s,PASSED
+,,,,,,,
+Test Cases/Testing_Web_Orange/Menu Solutions/19. TC- 019 Menu Solutions,Chrome 157.0.8103.79,,,17-11-2026 22:11:46,17-11-2026 22:12:48,1m - 1.917s,PASSED
+openBrowser(null),Chrome 157.0.8103.79,,,17-11-2026 22:11:46,17-11-2026 22:11:51,4.597s,PASSED
+"navigateToUrl(""https://orangehrm.com/"")",Chrome 157.0.8103.79,,,17-11-2026 22:11:51,17-11-2026 22:12:47,55.713s,PASSED
+maximizeWindow(),Chrome 157.0.8103.79,,,17-11-2026 22:12:47,17-11-2026 22:12:47,0.084s,PASSED
+"check(findTestObject(""Page_OrangeHRM All in One HR Software for Businesses  OrangeHRM/Menu Solutions/19. Button Solutions""))",Chrome 157.0.8103.79,,,17-11-2026 22:12:47,17-11-2026 22:12:47,0.333s,PASSED
+"verifyElementText(findTestObject(""Validasi/Menu Solutions/19.Validasi Solutions""), ""Solutions Overview"")",Chrome 157.0.8103.79,,,17-11-2026 22:12:47,17-11-2026 22:12:47,0.086s,PASSED
+closeBrowser(),Chrome 157.0.8103.79,,,17-11-2026 22:12:47,17-11-2026 22:12:48,0.452s,PASSED
+,,,,,,,
+Test Cases/Testing_Web_Orange/Menu Solutions/20. TC- 020 Menu Solutions- People Management,Chrome 157.0.8103.79,,,17-11-2026 22:12:48,17-11-2026 22:13:57,1m - 9.094s,PASSED
+openBrowser(null),Chrome 157.0.8103.79,,,17-11-2026 22:12:48,17-11-2026 22:12:49,1.632s,PASSED
+"navigateToUrl(""https://orangehrm.com/"")",Chrome 157.0.8103.79,,,17-11-2026 22:12:49,17-11-2026 22:13:17,27.090s,PASSED
+maximizeWindow(),Chrome 157.0.8103.79,,,17-11-2026 22:13:17,17-11-2026 22:13:17,0.063s,PASSED
+"check(findTestObject(""Page_OrangeHRM All in One HR Software for Businesses  OrangeHRM/Menu Solutions/19. Button Solutions""))",Chrome 157.0.8103.79,,,17-11-2026 22:13:17,17-11-2026 22:13:17,0.160s,PASSED
+"click(findTestObject(""Page_OrangeHRM All in One HR Software for Businesses  OrangeHRM/Menu Solutions/20. Button People Management""))",Chrome 157.0.8103.79,,,17-11-2026 22:13:17,17-11-2026 22:13:56,39.724s,PASSED
+"verifyElementClickable(findTestObject(""Validasi/Menu Solutions/20. Validasi People Management""))",Chrome 157.0.8103.79,,,17-11-2026 22:13:56,17-11-2026 22:13:57,0.084s,PASSED
+closeBrowser(),Chrome 157.0.8103.79,,,17-11-2026 22:13:57,17-11-2026 22:13:57,0.226s,PASSED
+,,,,,,,
+Test Cases/Testing_Web_Orange/Menu Solutions/21. TC- 021- Talent Management,Chrome 157.0.8103.79,,,17-11-2026 22:13:57,17-11-2026 22:15:24,1m - 26.958s,PASSED
+openBrowser(null),Chrome 157.0.8103.79,,,17-11-2026 22:13:57,17-11-2026 22:13:58,1.514s,PASSED
+"navigateToUrl(""https://orangehrm.com/"")",Chrome 157.0.8103.79,,,17-11-2026 22:13:58,17-11-2026 22:14:30,31.851s,PASSED
+maximizeWindow(),Chrome 157.0.8103.79,,,17-11-2026 22:14:30,17-11-2026 22:14:30,0.071s,PASSED
+"check(findTestObject(""Page_OrangeHRM All in One HR Software for Businesses  OrangeHRM/Menu Solutions/19. Button Solutions""))",Chrome 157.0.8103.79,,,17-11-2026 22:14:30,17-11-2026 22:14:31,0.248s,PASSED
+"click(findTestObject(""Page_OrangeHRM All in One HR Software for Businesses  OrangeHRM/Menu Solutions/21. Button Talent Management""))",Chrome 157.0.8103.79,,,17-11-2026 22:14:31,17-11-2026 22:15:24,52.925s,PASSED
+"verifyElementText(findTestObject(""Validasi/Menu Solutions/21. Validasi Talent Management""), ""Recruitment Cycle"")",Chrome 157.0.8103.79,,,17-11-2026 22:15:24,17-11-2026 22:15:24,0.042s,PASSED
+closeBrowser(),Chrome 157.0.8103.79,,,17-11-2026 22:15:24,17-11-2026 22:15:24,0.202s,PASSED
+,,,,,,,
+Test Cases/Testing_Web_Orange/Menu Solutions/22. TC-022- Compensation,Chrome 157.0.8103.79,,,17-11-2026 22:15:24,17-11-2026 22:16:55,1m - 31.502s,PASSED
+openBrowser(null),Chrome 157.0.8103.79,,,17-11-2026 22:15:24,17-11-2026 22:15:25,0.968s,PASSED
+"navigateToUrl(""https://orangehrm.com/"")",Chrome 157.0.8103.79,,,17-11-2026 22:15:25,17-11-2026 22:16:01,36.633s,PASSED
+maximizeWindow(),Chrome 157.0.8103.79,,,17-11-2026 22:16:01,17-11-2026 22:16:02,0.066s,PASSED
+"check(findTestObject(""Page_OrangeHRM All in One HR Software for Businesses  OrangeHRM/Menu Solutions/19. Button Solutions""))",Chrome 157.0.8103.79,,,17-11-2026 22:16:02,17-11-2026 22:16:02,0.146s,PASSED
+"click(findTestObject(""Page_OrangeHRM All in One HR Software for Businesses  OrangeHRM/Menu Solutions/22. Button Compensation""))",Chrome 157.0.8103.79,,,17-11-2026 22:16:02,17-11-2026 22:16:55,53.338s,PASSED
+"verifyElementText(findTestObject(""Validasi/Menu Solutions/22. Validasi Compensation""), ""Thriving and Diverse"")",Chrome 157.0.8103.79,,,17-11-2026 22:16:55,17-11-2026 22:16:55,0.046s,PASSED
+closeBrowser(),Chrome 157.0.8103.79,,,17-11-2026 22:16:55,17-11-2026 22:16:55,0.210s,PASSED
+,,,,,,,
+Test Cases/Testing_Web_Orange/Menu Solutions/23. TC- 023 Menu Solutions- Culture,Chrome 157.0.8103.79,,,17-11-2026 22:16:55,17-11-2026 22:18:53,1m - 58.154s,PASSED
+openBrowser(null),Chrome 157.0.8103.79,,,17-11-2026 22:16:55,17-11-2026 22:16:56,0.887s,PASSED
+"navigateToUrl(""https://orangehrm.com/"")",Chrome 157.0.8103.79,,,17-11-2026 22:16:56,17-11-2026 22:17:33,37.200s,PASSED
+maximizeWindow(),Chrome 157.0.8103.79,,,17-11-2026 22:17:33,17-11-2026 22:17:34,0.059s,PASSED
+"check(findTestObject(""Page_OrangeHRM All in One HR Software for Businesses  OrangeHRM/Menu Solutions/19. Button Solutions""))",Chrome 157.0.8103.79,,,17-11-2026 22:17:34,17-11-2026 22:17:34,0.194s,PASSED
+"click(findTestObject(""Page_OrangeHRM All in One HR Software for Businesses  OrangeHRM/Menu Solutions/23. Button Culture""))",Chrome 157.0.8103.79,,,17-11-2026 22:17:34,17-11-2026 22:18:53,1m - 19.458s,PASSED
+"verifyElementText(findTestObject(""Validasi/Menu Solutions/23. Validasi Culture""), ""Compensation Management."")",Chrome 157.0.8103.79,,,17-11-2026 22:18:53,17-11-2026 22:18:53,0.037s,PASSED
+closeBrowser(),Chrome 157.0.8103.79,,,17-11-2026 22:18:53,17-11-2026 22:18:53,0.214s,PASSED

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>43. Validasi Services</name>
+   <tag></tag>
+   <elementGuidId>633bda3f-1bf3-4b36-8f9a-11057171807e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='service']/div/div/div[2]/div/div/div/h4</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Services' or . = 'Services')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.site-heading.text-center > h4</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;Services&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>c3a5f7f4-ee8a-489c-93af-7a114f3d57bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Services</value>
+      <webElementGuid>1a015de7-b173-4fd0-a7dd-9dc82ec07984</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;services&quot;)/div[@class=&quot;elementor-container elementor-column-gap-no&quot;]/div[@class=&quot;elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-376dc3f&quot;]/div[@class=&quot;elementor-widget-wrap elementor-element-populated&quot;]/div[@id=&quot;service&quot;]/div[@class=&quot;elementor-widget-container&quot;]/div[@class=&quot;standard-services-area bg-gray carousel-shadow default-padding&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-8 offset-lg-2&quot;]/div[@class=&quot;site-heading text-center&quot;]/h4[1]</value>
+      <webElementGuid>31037ab6-df7b-44c4-8361-d384dc6399ac</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='service']/div/div/div[2]/div/div/div/h4</value>
+      <webElementGuid>32f02624-f0ae-4ba3-8fbb-c43ae973cd1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Media Posts'])[1]/following::h4[1]</value>
+      <webElementGuid>936a0ee9-2125-40ef-a9b8-0d638f44e70c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Skilled Experts'])[1]/following::h4[1]</value>
+      <webElementGuid>658dc956-654e-4db8-88ca-5aec15a733cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='What we do'])[1]/preceding::h4[1]</value>
+      <webElementGuid>9d6a315d-645b-4c10-a53e-91342aa7c000</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Analytic Solutions'])[1]/preceding::h4[1]</value>
+      <webElementGuid>5e780500-c814-4d1d-92ff-33a110d8e846</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/h4</value>
+      <webElementGuid>24c7fc74-ec06-47d6-b531-cb3e7a1c6ed0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h4[(text() = 'Services' or . = 'Services')]</value>
+      <webElementGuid>1c35159e-af10-4e2e-b852-831b79649eb7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

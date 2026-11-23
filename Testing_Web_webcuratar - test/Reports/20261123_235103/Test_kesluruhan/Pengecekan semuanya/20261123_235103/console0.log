@@ -1,0 +1,215 @@
+[0.016s][warning][cds] Archived non-system classes are disabled because the java.system.class.loader property is specified (value = "groovy.lang.GroovyClassLoader"). To use archived non-system classes, this property must not be set
+2026-11-23 23:51:07.217 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\USER\.katalon\packages\KS-11.7.0\configuration\org.eclipse.osgi\166\0\.cp\resources\logback\logback-execution.xml
+2026-11-23 23:51:07.220 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\USER\Katalon Studio\Testing_Web_webcuratar - test\Include\config\log.properties
+2026-11-23 23:51:07.902 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Test_kesluruhan/Pengecekan semuanya
+2026-11-23 23:51:07.986 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Morris Mario Pakpahan
+2026-11-23 23:51:07.988 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Testing_Web
+2026-11-23 23:51:07.989 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = USER - DESKTOP-8VN3607
+2026-11-23 23:51:07.990 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-11-23 23:51:07.990 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.18.9
+2026-11-23 23:51:07.991 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.7.0
+2026-11-23 23:51:08.144 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-11-23 23:51:08.145 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/1. Testing_Web_webcuratar/40.Testing _Web Webcuratar/47. TC-047-Negative Test- Book an Appointment - Mengisi hanya Email
+2026-11-23 23:51:08.201 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) baseURL = https://webcuratar.com/
+2026-11-23 23:51:08.527 WARN  c.k.k.c.u.internal.IntentionGroupSyntax  - Groovy AST scan failed, falling back to manual scanning
+java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 21
+	at java.base/java.util.Arrays$ArrayList.get(Arrays.java:4266)
+	at com.kms.katalon.core.util.internal.IntentionGroupSyntax.scanLinesForJavadocMarkers(IntentionGroupSyntax.java:309)
+	at com.kms.katalon.core.util.internal.IntentionGroupSyntax.scanUsingGroovyAST(IntentionGroupSyntax.java:297)
+	at com.kms.katalon.core.util.internal.IntentionGroupSyntax.scanSourceText(IntentionGroupSyntax.java:95)
+	at com.kms.katalon.core.ast.AstTestStepTransformation.buildJavadocIntentionTokenMap(AstTestStepTransformation.groovy:80)
+	at com.kms.katalon.core.ast.AstTestStepTransformation.visit(AstTestStepTransformation.groovy:119)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSite.invoke(PogoMetaMethodSite.java:166)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.call(PogoMetaMethodSite.java:69)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)
+	at org.codehaus.groovy.control.customizers.ASTTransformationCustomizer.call(ASTTransformationCustomizer.groovy:301)
+	at org.codehaus.groovy.control.CompilationUnit$IPrimaryClassNodeOperation.doPhaseOperation(CompilationUnit.java:943)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:672)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:636)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:392)
+	at groovy.lang.GroovyClassLoader.lambda$parseClass$3(GroovyClassLoader.java:335)
+	at org.codehaus.groovy.runtime.memoize.StampedCommonCache.compute(StampedCommonCache.java:163)
+	at org.codehaus.groovy.runtime.memoize.StampedCommonCache.getAndPut(StampedCommonCache.java:154)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:333)
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:208)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:318)
+	at S1123_14.run(S1123_14.groovy:41)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:254)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:360)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:349)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:652)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:398)
+	at groovy.ui.GroovyMain.access$1400(GroovyMain.java:68)
+	at groovy.ui.GroovyMain$GroovyCommand.process(GroovyMain.java:322)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:142)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:115)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:117)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:39)
+2026-11-23 23:51:08.574 DEBUG ook an Appointment - Mengisi hanya Email - 1: return null
+2026-11-23 23:51:08.580 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/1. Testing_Web_webcuratar/40.Testing _Web Webcuratar/47. TC-047-Negative Test- Book an Appointment - Mengisi hanya Email
+2026-11-23 23:51:08.589 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-11-23 23:51:08.589 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/1. Testing_Web_webcuratar/40.Testing _Web Webcuratar/51. TC-051_ pengisian dengan benar
+2026-11-23 23:51:08.610 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) TrueURL = https://webcuratar.com/
+2026-11-23 23:51:08.626 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Name = Santa
+2026-11-23 23:51:08.642 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Email = Santa_pelua72@gmail.com
+2026-11-23 23:51:08.661 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Subject = Pengetesan Hari ini\r\n
+2026-11-23 23:51:08.678 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Noted = percobaan pertama harusnya bisa atau tidak bisa
+2026-11-23 23:51:08.789 DEBUG t.51. TC-051_ pengisian dengan benar     - 1: com.webcuratar.BrowserKeywords.opensite()
+2026-11-23 23:51:09.140 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-23 23:51:09.194 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-23 23:51:11.313 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4dbe7d6493ca76ee101727d88bf762fd
+2026-11-23 23:51:11.313 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 157.0.8103.80
+2026-11-23 23:51:11.314 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-11-23 23:51:11.315 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-23 23:51:11.321 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-23 23:51:15.940 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.BrowserKeywords.opensite is PASSED
+2026-11-23 23:51:15.944 DEBUG t.51. TC-051_ pengisian dengan benar     - 2: com.webcuratar.FormKeywords.fillContactForm(Name, Email, Subject, Noted)
+2026-11-23 23:51:17.340 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.FormKeywords.fillContactForm is PASSED
+2026-11-23 23:51:17.340 DEBUG t.51. TC-051_ pengisian dengan benar     - 3: check(findTestObject("Page_WebCuratar/5. Button Submit"))
+2026-11-23 23:51:17.485 DEBUG t.51. TC-051_ pengisian dengan benar     - 4: com.webcuratar.ActionKeywords.clickSubmit()
+2026-11-23 23:51:18.148 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.ActionKeywords.clickSubmit is PASSED
+2026-11-23 23:51:18.149 DEBUG t.51. TC-051_ pengisian dengan benar     - 5: com.webcuratar.VerificationKeywords.verifySuccessMessage()
+2026-11-23 23:51:18.221 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.VerificationKeywords.verifySuccessMessage is PASSED
+2026-11-23 23:51:18.222 DEBUG t.51. TC-051_ pengisian dengan benar     - 6: com.webcuratar.ScreenshotKeywords.takeShot()
+2026-11-23 23:51:18.559 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.ScreenshotKeywords.takeShot is PASSED
+2026-11-23 23:51:18.561 DEBUG t.51. TC-051_ pengisian dengan benar     - 7: com.webcuratar.BrowserKeywords.closeSite()
+2026-11-23 23:51:18.824 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.BrowserKeywords.closeSite is PASSED
+2026-11-23 23:51:18.827 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/1. Testing_Web_webcuratar/40.Testing _Web Webcuratar/51. TC-051_ pengisian dengan benar
+2026-11-23 23:51:18.832 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-11-23 23:51:18.832 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/1. Testing_Web_webcuratar/40.Testing _Web Webcuratar/52. TC-052_ pengisian dengan benar _Data
+2026-11-23 23:51:18.854 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) TrueURL = https://webcuratar.com/
+2026-11-23 23:51:18.855 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Name = Santa
+2026-11-23 23:51:18.856 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Email = Santa_pelua72@gmail.com
+2026-11-23 23:51:18.858 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Subject = Pengetesan Hari ini\r\n
+2026-11-23 23:51:18.858 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Noted = percobaan pertama harusnya bisa atau tidak bisa
+2026-11-23 23:51:19.073 DEBUG .5. TC-052_ pengisian dengan benar _Data - 1: testData = findTestData("Data Files/Test_1")
+2026-11-23 23:51:19.096 DEBUG .5. TC-052_ pengisian dengan benar _Data - 2: name = testData.getValue("Name", 1)
+2026-11-23 23:51:19.124 DEBUG .5. TC-052_ pengisian dengan benar _Data - 3: email = testData.getValue("Email", 1)
+2026-11-23 23:51:19.128 DEBUG .5. TC-052_ pengisian dengan benar _Data - 4: subject = testData.getValue("Subject", 1)
+2026-11-23 23:51:19.131 DEBUG .5. TC-052_ pengisian dengan benar _Data - 5: noted = testData.getValue("Noted", 1)
+2026-11-23 23:51:19.133 DEBUG .5. TC-052_ pengisian dengan benar _Data - 6: com.webcuratar.BrowserKeywords.opensite()
+2026-11-23 23:51:19.136 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-23 23:51:19.141 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-23 23:51:20.159 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = c52ee419d34c617eb0fa41204c0e3c51
+2026-11-23 23:51:20.160 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 157.0.8103.80
+2026-11-23 23:51:20.161 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-11-23 23:51:20.162 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-23 23:51:20.163 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-23 23:51:23.555 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.BrowserKeywords.opensite is PASSED
+2026-11-23 23:51:23.558 DEBUG .5. TC-052_ pengisian dengan benar _Data - 7: com.webcuratar.FormKeywords.fillContactForm(Name, Email, Subject, Noted)
+2026-11-23 23:51:24.945 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.FormKeywords.fillContactForm is PASSED
+2026-11-23 23:51:24.947 DEBUG .5. TC-052_ pengisian dengan benar _Data - 8: check(findTestObject("Page_WebCuratar/5. Button Submit"))
+2026-11-23 23:51:25.050 DEBUG .5. TC-052_ pengisian dengan benar _Data - 9: com.webcuratar.ActionKeywords.clickSubmit()
+2026-11-23 23:51:25.149 WARN  k.c.w.k.b.WaitForElementClickableKeyword - Error during waiting interactable: The user aborted a request.
+2026-11-23 23:51:25.393 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.ActionKeywords.clickSubmit is PASSED
+2026-11-23 23:51:25.394 DEBUG .5. TC-052_ pengisian dengan benar _Data - 10: com.webcuratar.VerificationKeywords.verifySuccessMessage()
+2026-11-23 23:51:25.456 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.VerificationKeywords.verifySuccessMessage is PASSED
+2026-11-23 23:51:25.457 DEBUG .5. TC-052_ pengisian dengan benar _Data - 11: com.webcuratar.ScreenshotKeywords.takeShot()
+2026-11-23 23:51:25.699 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.ScreenshotKeywords.takeShot is PASSED
+2026-11-23 23:51:25.700 DEBUG .5. TC-052_ pengisian dengan benar _Data - 12: com.webcuratar.BrowserKeywords.closeSite()
+2026-11-23 23:51:25.934 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.BrowserKeywords.closeSite is PASSED
+2026-11-23 23:51:25.934 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/1. Testing_Web_webcuratar/40.Testing _Web Webcuratar/52. TC-052_ pengisian dengan benar _Data
+2026-11-23 23:51:25.939 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-11-23 23:51:25.940 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/1. Testing_Web_webcuratar/40.Testing _Web Webcuratar/53. TC-052_ pengisian dengan benar _Data - Semua_Data
+2026-11-23 23:51:25.988 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) TrueURL = https://webcuratar.com/
+2026-11-23 23:51:25.988 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Name = Santa
+2026-11-23 23:51:25.989 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Email = Santa_pelua72@gmail.com
+2026-11-23 23:51:25.990 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Subject = Pengetesan Hari ini\r\n
+2026-11-23 23:51:25.991 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Noted = percobaan pertama harusnya bisa atau tidak bisa
+2026-11-23 23:51:26.122 DEBUG engisian dengan benar _Data - Semua_Data - 1: testData = findTestData("Data Files/Test_1")
+2026-11-23 23:51:26.129 DEBUG engisian dengan benar _Data - Semua_Data - 2: for ([row = 1, row <= testData.getRowNumbers(), (row++)])
+2026-11-23 23:51:26.134 DEBUG engisian dengan benar _Data - Semua_Data - 1: name = testData.getValue("Name", row)
+2026-11-23 23:51:26.136 DEBUG engisian dengan benar _Data - Semua_Data - 2: email = testData.getValue("Email", row)
+2026-11-23 23:51:26.139 DEBUG engisian dengan benar _Data - Semua_Data - 3: subject = testData.getValue("Subject", row)
+2026-11-23 23:51:26.143 DEBUG engisian dengan benar _Data - Semua_Data - 4: noted = testData.getValue("Noted", row)
+2026-11-23 23:51:26.145 DEBUG engisian dengan benar _Data - Semua_Data - 5: com.webcuratar.BrowserKeywords.opensite()
+2026-11-23 23:51:26.146 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-23 23:51:26.150 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-23 23:51:27.446 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 9f068ad2e7e0c8efe37d01560a6ecd6f
+2026-11-23 23:51:27.449 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 157.0.8103.80
+2026-11-23 23:51:27.449 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-11-23 23:51:27.450 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-23 23:51:27.451 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-23 23:51:33.999 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.BrowserKeywords.opensite is PASSED
+2026-11-23 23:51:34.001 DEBUG engisian dengan benar _Data - Semua_Data - 6: com.webcuratar.FormKeywords.fillContactForm(name, email, subject, noted)
+2026-11-23 23:51:35.722 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.FormKeywords.fillContactForm is PASSED
+2026-11-23 23:51:35.727 DEBUG engisian dengan benar _Data - Semua_Data - 7: check(findTestObject("Page_WebCuratar/5. Button Submit"))
+2026-11-23 23:51:35.972 DEBUG engisian dengan benar _Data - Semua_Data - 8: com.webcuratar.ActionKeywords.clickSubmit()
+2026-11-23 23:51:36.475 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.ActionKeywords.clickSubmit is PASSED
+2026-11-23 23:51:36.478 DEBUG engisian dengan benar _Data - Semua_Data - 9: com.webcuratar.VerificationKeywords.verifySuccessMessage()
+2026-11-23 23:51:36.812 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.VerificationKeywords.verifySuccessMessage is PASSED
+2026-11-23 23:51:36.814 DEBUG engisian dengan benar _Data - Semua_Data - 10: com.webcuratar.ScreenshotKeywords.takeShot()
+2026-11-23 23:51:37.241 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.ScreenshotKeywords.takeShot is PASSED
+2026-11-23 23:51:37.244 DEBUG engisian dengan benar _Data - Semua_Data - 11: com.webcuratar.BrowserKeywords.closeSite()
+2026-11-23 23:51:37.545 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.BrowserKeywords.closeSite is PASSED
+2026-11-23 23:51:37.560 DEBUG engisian dengan benar _Data - Semua_Data - 1: name = testData.getValue("Name", row)
+2026-11-23 23:51:37.562 DEBUG engisian dengan benar _Data - Semua_Data - 2: email = testData.getValue("Email", row)
+2026-11-23 23:51:37.563 DEBUG engisian dengan benar _Data - Semua_Data - 3: subject = testData.getValue("Subject", row)
+2026-11-23 23:51:37.565 DEBUG engisian dengan benar _Data - Semua_Data - 4: noted = testData.getValue("Noted", row)
+2026-11-23 23:51:37.566 DEBUG engisian dengan benar _Data - Semua_Data - 5: com.webcuratar.BrowserKeywords.opensite()
+2026-11-23 23:51:37.568 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-23 23:51:37.571 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-23 23:51:38.827 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = a28261f36cc9e864a8570bd4dab79e2c
+2026-11-23 23:51:38.828 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 157.0.8103.80
+2026-11-23 23:51:38.829 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-11-23 23:51:38.830 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-23 23:51:38.830 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-23 23:51:42.851 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.BrowserKeywords.opensite is PASSED
+2026-11-23 23:51:42.852 DEBUG engisian dengan benar _Data - Semua_Data - 6: com.webcuratar.FormKeywords.fillContactForm(name, email, subject, noted)
+2026-11-23 23:51:44.979 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.FormKeywords.fillContactForm is PASSED
+2026-11-23 23:51:44.980 DEBUG engisian dengan benar _Data - Semua_Data - 7: check(findTestObject("Page_WebCuratar/5. Button Submit"))
+2026-11-23 23:51:45.197 DEBUG engisian dengan benar _Data - Semua_Data - 8: com.webcuratar.ActionKeywords.clickSubmit()
+2026-11-23 23:51:45.652 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.ActionKeywords.clickSubmit is PASSED
+2026-11-23 23:51:45.652 DEBUG engisian dengan benar _Data - Semua_Data - 9: com.webcuratar.VerificationKeywords.verifySuccessMessage()
+2026-11-23 23:51:45.970 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.VerificationKeywords.verifySuccessMessage is PASSED
+2026-11-23 23:51:45.972 DEBUG engisian dengan benar _Data - Semua_Data - 10: com.webcuratar.ScreenshotKeywords.takeShot()
+2026-11-23 23:51:46.406 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.ScreenshotKeywords.takeShot is PASSED
+2026-11-23 23:51:46.407 DEBUG engisian dengan benar _Data - Semua_Data - 11: com.webcuratar.BrowserKeywords.closeSite()
+2026-11-23 23:51:46.706 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.BrowserKeywords.closeSite is PASSED
+2026-11-23 23:51:46.707 DEBUG engisian dengan benar _Data - Semua_Data - 1: name = testData.getValue("Name", row)
+2026-11-23 23:51:46.708 DEBUG engisian dengan benar _Data - Semua_Data - 2: email = testData.getValue("Email", row)
+2026-11-23 23:51:46.709 DEBUG engisian dengan benar _Data - Semua_Data - 3: subject = testData.getValue("Subject", row)
+2026-11-23 23:51:46.710 DEBUG engisian dengan benar _Data - Semua_Data - 4: noted = testData.getValue("Noted", row)
+2026-11-23 23:51:46.711 DEBUG engisian dengan benar _Data - Semua_Data - 5: com.webcuratar.BrowserKeywords.opensite()
+2026-11-23 23:51:46.714 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-23 23:51:46.716 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-23 23:51:48.066 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = c9e27b956e8700c8dc9ebbc6393f4230
+2026-11-23 23:51:48.068 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 157.0.8103.80
+2026-11-23 23:51:48.069 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-11-23 23:51:48.073 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-23 23:51:48.075 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-23 23:51:52.048 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.BrowserKeywords.opensite is PASSED
+2026-11-23 23:51:52.049 DEBUG engisian dengan benar _Data - Semua_Data - 6: com.webcuratar.FormKeywords.fillContactForm(name, email, subject, noted)
+2026-11-23 23:51:53.588 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.FormKeywords.fillContactForm is PASSED
+2026-11-23 23:51:53.589 DEBUG engisian dengan benar _Data - Semua_Data - 7: check(findTestObject("Page_WebCuratar/5. Button Submit"))
+2026-11-23 23:51:53.748 DEBUG engisian dengan benar _Data - Semua_Data - 8: com.webcuratar.ActionKeywords.clickSubmit()
+2026-11-23 23:51:53.861 WARN  k.c.w.k.b.WaitForElementClickableKeyword - Error during waiting interactable: The user aborted a request.
+2026-11-23 23:51:54.201 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.ActionKeywords.clickSubmit is PASSED
+2026-11-23 23:51:54.202 DEBUG engisian dengan benar _Data - Semua_Data - 9: com.webcuratar.VerificationKeywords.verifySuccessMessage()
+2026-11-23 23:51:54.634 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.VerificationKeywords.verifySuccessMessage is PASSED
+2026-11-23 23:51:54.636 DEBUG engisian dengan benar _Data - Semua_Data - 10: com.webcuratar.ScreenshotKeywords.takeShot()
+2026-11-23 23:51:55.045 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.ScreenshotKeywords.takeShot is PASSED
+2026-11-23 23:51:55.045 DEBUG engisian dengan benar _Data - Semua_Data - 11: com.webcuratar.BrowserKeywords.closeSite()
+2026-11-23 23:51:55.250 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.webcuratar.BrowserKeywords.closeSite is PASSED
+2026-11-23 23:51:55.253 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/1. Testing_Web_webcuratar/40.Testing _Web Webcuratar/53. TC-052_ pengisian dengan benar _Data - Semua_Data
+2026-11-23 23:51:55.317 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-11-23 23:51:55.317 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Test_kesluruhan/Pengecekan semuanya
+2026-11-23 23:51:55.317 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

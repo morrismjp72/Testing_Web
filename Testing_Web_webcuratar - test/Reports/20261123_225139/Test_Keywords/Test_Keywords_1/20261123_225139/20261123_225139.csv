@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_Keywords_1,Chrome 157.0.8103.80,,,23-11-2026 22:51:44,23-11-2026 22:52:04,19.930s,PASSED
+,,,,,,,
+Test Cases/1. Testing_Web_webcuratar/40.Testing _Web Webcuratar/51. TC-051_ pengisian dengan benar,Chrome 157.0.8103.80,,,23-11-2026 22:51:44,23-11-2026 22:51:56,11.402s,PASSED
+"DATA BINDING - {""(Default) Noted"":""percobaan pertama harusnya bisa atau tidak bisa"",""(Default) Email"":""Santa_pelua72@gmail.com"",""(Default) TrueU..."":""https://webcuratar.com/"",""(Default) Name"":""Santa"",""(Default) Subje..."":""Pengetesan Hari ini\r\n""}",,,,,,,
+com.webcuratar.BrowserKeywords.opensite(),Chrome 157.0.8103.80,,,23-11-2026 22:51:45,23-11-2026 22:51:52,7.653s,PASSED
+"com.webcuratar.FormKeywords.fillContactForm(Name, Email, Subject, Noted)",Chrome 157.0.8103.80,,,23-11-2026 22:51:52,23-11-2026 22:51:54,1.479s,PASSED
+"check(findTestObject(""Page_WebCuratar/5. Button Submit""))",Chrome 157.0.8103.80,,,23-11-2026 22:51:54,23-11-2026 22:51:54,0.151s,PASSED
+com.webcuratar.ActionKeywords.clickSubmit(),Chrome 157.0.8103.80,,,23-11-2026 22:51:54,23-11-2026 22:51:55,0.654s,PASSED
+com.webcuratar.VerificationKeywords.verifySuccessMessage(),Chrome 157.0.8103.80,,,23-11-2026 22:51:55,23-11-2026 22:51:55,0.162s,PASSED
+com.webcuratar.ScreenshotKeywords.takeShot(),Chrome 157.0.8103.80,,,23-11-2026 22:51:55,23-11-2026 22:51:55,0.409s,PASSED
+com.webcuratar.BrowserKeywords.closeSite(),Chrome 157.0.8103.80,,,23-11-2026 22:51:55,23-11-2026 22:51:56,0.321s,PASSED
+,,,,,,,
+Test Cases/1. Testing_Web_webcuratar/40.Testing _Web Webcuratar/51. TC-051_ pengisian dengan benar,Chrome 157.0.8103.80,,,23-11-2026 22:51:56,23-11-2026 22:52:04,8.249s,PASSED
+"DATA BINDING - {""(Default) Noted"":""percobaan pertama harusnya bisa atau tidak bisa"",""(Default) Email"":""Santa_pelua72@gmail.com"",""(Default) TrueU..."":""https://webcuratar.com/"",""(Default) Name"":""Santa"",""(Default) Subje..."":""Pengetesan Hari ini\r\n""}",,,,,,,
+com.webcuratar.BrowserKeywords.opensite(),Chrome 157.0.8103.80,,,23-11-2026 22:51:56,23-11-2026 22:52:01,5.046s,PASSED
+"com.webcuratar.FormKeywords.fillContactForm(Name, Email, Subject, Noted)",Chrome 157.0.8103.80,,,23-11-2026 22:52:01,23-11-2026 22:52:02,1.703s,PASSED
+"check(findTestObject(""Page_WebCuratar/5. Button Submit""))",Chrome 157.0.8103.80,,,23-11-2026 22:52:02,23-11-2026 22:52:03,0.172s,PASSED
+com.webcuratar.ActionKeywords.clickSubmit(),Chrome 157.0.8103.80,,,23-11-2026 22:52:03,23-11-2026 22:52:03,0.492s,PASSED
+com.webcuratar.VerificationKeywords.verifySuccessMessage(),Chrome 157.0.8103.80,,,23-11-2026 22:52:03,23-11-2026 22:52:03,0.297s,PASSED
+com.webcuratar.ScreenshotKeywords.takeShot(),Chrome 157.0.8103.80,,,23-11-2026 22:52:03,23-11-2026 22:52:04,0.262s,PASSED
+com.webcuratar.BrowserKeywords.closeSite(),Chrome 157.0.8103.80,,,23-11-2026 22:52:04,23-11-2026 22:52:04,0.230s,PASSED

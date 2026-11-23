@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>21. Button Talent Management</name>
+   <tag></tag>
+   <elementGuidId>cfa4be4c-7dfa-4727-a98a-28ce4c85126a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navbarNav']/ul/li[2]/div/div/div[2]/div/div[3]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>6df95bad-8e97-430c-be00-8cbcf3bd0082</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/solutions/talent-management</value>
+      <webElementGuid>404dddef-6942-4313-9566-52e466935e49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Talent Management</value>
+      <webElementGuid>cca2f158-14c7-4b69-9a97-2d3d0d8d2bc3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navbarNav&quot;)/ul[@class=&quot;navbar-nav ms-auto web-menu&quot;]/li[@class=&quot;nav-item&quot;]/div[@class=&quot;dropdown-menu dropdown-menu-mega d-lg-flex shadow&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-9 col-md-9&quot;]/div[@class=&quot;row right-menu&quot;]/div[@class=&quot;col-md-3 nav-section-main&quot;]/a[1]</value>
+      <webElementGuid>1556f7d2-72d6-4bb5-899c-42a5d1f0b511</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navbarNav']/ul/li[2]/div/div/div[2]/div/div[3]/a</value>
+      <webElementGuid>a0816d38-61ed-454e-a835-4781c5f758f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Talent Management')]</value>
+      <webElementGuid>a3627ada-a965-4a05-9380-4d65b0d55848</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Real-time data for better employee time tracking.'])[1]/following::a[1]</value>
+      <webElementGuid>d65bab62-6699-4514-afbf-949524a4e59d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='People Management'])[1]/following::a[1]</value>
+      <webElementGuid>80996863-13bd-45b5-a322-11cb51c01946</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recruit and onboard, top talent with specialized ATS tools.'])[1]/preceding::a[1]</value>
+      <webElementGuid>403c0591-5a52-4617-b564-1e581fa48236</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Compensation'])[1]/preceding::a[1]</value>
+      <webElementGuid>3f762af2-58a1-41f8-92d6-7314e835c313</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Talent Management']/parent::*</value>
+      <webElementGuid>e5fedc30-8c7d-45db-8ad1-723802bf9af1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/solutions/talent-management')]</value>
+      <webElementGuid>a0b1fd76-159d-4c04-8d3b-1c8278668e4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[3]/a</value>
+      <webElementGuid>938a39d8-05fc-4cb8-a796-54179f6c18a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/solutions/talent-management' and (text() = 'Talent Management' or . = 'Talent Management')]</value>
+      <webElementGuid>caaad7c5-8102-4437-a7e3-ed8fbfc948e5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
