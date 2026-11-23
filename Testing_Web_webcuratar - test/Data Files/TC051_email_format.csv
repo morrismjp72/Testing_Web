@@ -1,6 +1,0 @@
-rowId,CaseName,Email,ExpectedResult
-1,Tanpa at,plainaddress,One or more fields have an error. Please check and try again.
-2,Tanpa username,@domain.com,One or more fields have an error. Please check and try again.
-3,Tanpa domain,user@,One or more fields have an error. Please check and try again.
-4,Dua at,user@@domain.com,One or more fields have an error. Please check and try again.
-5,Ada spasi,user name@domain.com,One or more fields have an error. Please check and try again.

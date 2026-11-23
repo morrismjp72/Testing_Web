@@ -1,6 +1,0 @@
-rowId,Name,Email,Subject,Noted,ExpectedResult
-1,Santa,,,,One or more fields have an error. Please check and try again.
-2,,Santa_pelua72@gmail.com,,,One or more fields have an error. Please check and try again.
-3,,,Test_1,,One or more fields have an error. Please check and try again.
-4,,,,percobaan pertama harusnya bisa atau tidak bisa,One or more fields have an error. Please check and try again.
-5,Santa,Santa_pelua72@gmail.com,,,One or more fields have an error. Please check and try again.
